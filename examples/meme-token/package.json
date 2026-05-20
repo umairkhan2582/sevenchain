@@ -1,0 +1,15 @@
+{
+    "name": "meme-token-example",
+    "version": "1.0.0",
+    "description": "Deploy a meme ERC-20 on Seven Chain",
+    "scripts": {
+      "compile": "hardhat compile",
+      "deploy": "hardhat run scripts/deploy.ts --network sevenchain"
+    },
+    "devDependencies": {
+      "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+      "hardhat": "^2.22.0",
+      "dotenv": "^16.0.0"
+    }
+  }
+  
